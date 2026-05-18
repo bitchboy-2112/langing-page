@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Estilos/styles.css">
+  <link rel="stylesheet" href="../Estilos/readmore.css">
+  <title>Acabados y Pinturas - Ferretería Alvarado</title>
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header-container">
+      <a href="../index.html" class="logo">
+        <img src="../Assets/logo ferreteria -header.png" class="logo-icon" alt="Ferretería Alvarado logo">
+        <span class="logo-text">Ferretería Alvarado</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="../index.html#inicio" class="nav-link active">Inicio</a></li>
+          <li><a href="../index.html#productos" class="nav-link">Productos</a></li>
+          <li><a href="../index.html#servicios" class="nav-link">Servicios</a></li>
+          <li><a href="../index.html#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <a href="../index.html#contacto" class="btn btn-primary header-cta">Cotizar</a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <ul class="mobile-nav-list">
+      <li><a href="../index.html#inicio" class="mobile-nav-link">Inicio</a></li>
+      <li><a href="../index.html#productos" class="mobile-nav-link">Productos</a></li>
+      <li><a href="../index.html#servicios" class="mobile-nav-link">Servicios</a></li>
+      <li><a href="../index.html#contacto" class="mobile-nav-link">Contacto</a></li>
+      <li><a href="../index.html#contacto" class="btn btn-primary mobile-cta">Cotizar</a></li>
+    </ul>
+  </div>
+
+  <main class="main-content">
+    <section class="product-section container">
+      <div class="product-container">
+        <div class="image-section">
+          <img src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=400&h=300&fit=crop" alt="Acabados y pinturas" />
+        </div>
+
+        <article class="product-card">
+          <h1 class="title">Acabados y Pinturas de Alto Impacto</h1>
+          <p class="meta"><strong>Categoría:</strong> Acabados y Pinturas</p>
+
+          <div class="description">
+            <p>
+              Descubre pinturas de alta cobertura, selladores y productos de acabado para interiores y exteriores.
+              <span id="dots">...</span>
+              <span id="more">Perfectos para darle un acabado profesional a tus paredes, fachadas y detalles decorativos. Calidad superior y tonos actualizados para cada estilo.</span>
+            </p>
+            <button id="btn" class="btn btn-outline readmore-btn" aria-expanded="false" aria-controls="more">Leer más</button>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="../scripts/readmore.js"></script>
+</body>
+</html>
