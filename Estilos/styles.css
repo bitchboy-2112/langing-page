@@ -2,8 +2,8 @@
    CSS Variables & Reset
 ======================================== */
 :root {
-  --orange: #f97316;
-  --orange-hover: #ea580c;
+  --orange: #efb810;
+  --orange-hover: #DAA520;
   --navy: #1e293b;
   --navy-dark: #0f172a;
   --gray-50: #f8fafc;
@@ -346,6 +346,16 @@ ul {
   left: 0;
   right: 0;
   height: 8px;
+  background-color: var(--orange);
+  border-radius: 4px;
+}
+
+.hero-image-accent-2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 8px;
   background-color: var(--orange);
   border-radius: 4px;
 }
@@ -732,6 +742,7 @@ ul {
 }
 
 @media (max-width: 600px) {
+  
   .social-float {
     left: 50%;
     transform: translateX(-50%);
@@ -826,8 +837,8 @@ ul {
 ======================================== */
 .scroll-to-top {
   position: fixed;
-  bottom: 2rem;
-  right: 2rem; /* No change here, keeping for context */
+  bottom: 1.5rem;
+  right: 4rem; /* No change here, keeping for context */
   width: 3rem;
   height: 3rem;
   background-color: var(--orange);
@@ -988,7 +999,7 @@ ul {
   }
 
   .features-grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .catalog-grid {
